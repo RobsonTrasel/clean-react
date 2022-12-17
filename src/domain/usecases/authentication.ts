@@ -1,7 +1,8 @@
-import { AccountModel } from "domain/models/account-models"
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import { AccountModel } from 'domain/models/account-models'
 
 type AuthenticationParams = {
-  email: string,
+  email: string
   password: string
 }
 
